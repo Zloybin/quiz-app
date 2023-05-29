@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>Add new words</title>
+</head>
+<body>
+<div id="input_field">
+Article: <input id="article" type="text" size="3 px">
+Word: <input id="word" type="text">
+Translation: <input id="translation" type="text">
+<button type="button" onclick="send_data($('#article').val(), $('#word').val(), $('#translation').val())">Добавить</button>
+</div>
+</body>
+</html>
